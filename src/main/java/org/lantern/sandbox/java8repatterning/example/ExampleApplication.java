@@ -11,7 +11,7 @@ public class ExampleApplication {
 		// Configure the Event subsystem with our own executor
 		Event.configureAsyncExecutor(Executors.newFixedThreadPool(4));
 
-		// Set up a sample API, listen to an event and then do some stuff
+		// Set up a sample API, listen to some events and then do some stuff
 		ExampleAPI api = new ExampleAPI();
 		api.onDidStuff.listen(this::stuffWasDone);
 		api.onDidOtherStuff.listen(this::otherStuffWasDone);
