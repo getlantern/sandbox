@@ -9,7 +9,7 @@ as Java 6 and 7 compatible bytecode.
 
 ### Events
 
-See [ExampleApplication.java](src/main/java/org/lantern/sandbox/java8repatterning/example/ExampleApplication.java)
+See [`ExampleApplication.java`](src/main/java/org/lantern/sandbox/java8repatterning/example/ExampleApplication.java)
 for an example of an application that does event handling that confers the following benefits:
 
  * Strongly typed
